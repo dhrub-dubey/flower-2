@@ -28,7 +28,9 @@ body {
   filter: blur(0.1vmin); }
 
 .flowers {
-  position: relative;
+  display: flex;
+    justify-content: center;
+    align-items: center;
   transform: scale(0.9); }
 
 .flower {
