@@ -10,7 +10,7 @@
 
 body {
   display: flex;
-  align-items: flex-center;
+  align-items: center;
   justify-content: center;
   min-height: 100vh;
   background-color: var(--dark-color);
@@ -28,13 +28,13 @@ body {
   filter: blur(0.1vmin); }
 
 .flowers {
-  position: relative;
+  position: center;
   transform: scale(0.9); }
 
 .flower {
-  position: absolute;
+  position: center;
   bottom: 10vmin;
-  transform-origin: bottom center;
+  transform-origin: center;
   z-index: 10;
   --fl-speed: 0.8s; }
   .flower--1 {
@@ -274,7 +274,7 @@ body {
 
 @keyframes growing-grass-ans--1 {
   0% {
-    transform-origin: bottom left;
+    transform-origin: center;
     transform: rotate(-20deg) scale(0); } }
       .flower__grass__leaf--2 {
         top: -5%;
@@ -285,7 +285,7 @@ body {
 
 @keyframes growing-grass-ans--2 {
   0% {
-    transform-origin: bottom right;
+    transform-origin: center;
     transform: rotate(10deg) scale(0); } }
       .flower__grass__leaf--3 {
         top: 5%;
@@ -296,7 +296,7 @@ body {
 
 @keyframes growing-grass-ans--3 {
   0% {
-    transform-origin: bottom left;
+    transform-origin: center;
     transform: rotate(-18deg) rotateX(-20deg) scale(0); } }
       .flower__grass__leaf--4 {
         top: 6%;
@@ -307,7 +307,7 @@ body {
 
 @keyframes growing-grass-ans--4 {
   0% {
-    transform-origin: bottom right;
+    transform-origin: center;
     transform: rotate(2deg) scale(0); } }
       .flower__grass__leaf--5 {
         top: 20%;
@@ -318,7 +318,7 @@ body {
 
 @keyframes growing-grass-ans--5 {
   0% {
-    transform-origin: bottom left;
+    transform-origin: center;
     transform: rotate(-24deg) rotateX(-20deg) scale(0); } }
       .flower__grass__leaf--6 {
         top: 22%;
@@ -329,7 +329,7 @@ body {
 
 @keyframes growing-grass-ans--6 {
   0% {
-    transform-origin: bottom right;
+    transform-origin: center;
     transform: rotate(10deg) scale(0); } }
       .flower__grass__leaf--7 {
         top: 39%;
@@ -340,7 +340,7 @@ body {
 
 @keyframes growing-grass-ans--7 {
   0% {
-    transform-origin: bottom left;
+    transform-origin: center;
     transform: rotate(-10deg) scale(0); } }
       .flower__grass__leaf--8 {
         top: 40%;
@@ -351,7 +351,7 @@ body {
 
 @keyframes growing-grass-ans--8 {
   0% {
-    transform-origin: bottom right;
+    transform-origin: center;
     transform: rotate(10deg) scale(0); } }
     .flower__grass__overlay {
       position: absolute;
@@ -369,7 +369,7 @@ body {
     position: absolute;
     bottom: 10vmin;
     left: -3vmin;
-    transform-origin: bottom center;
+    transform-origin: center;
     transform: rotate(-30deg) rotateY(-20deg);
     display: flex;
     flex-direction: column;
